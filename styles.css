@@ -1,5 +1,36 @@
+/* IMPORTACION FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.primerHeader {
+    border: 1px solid white;
+    border-radius: 22px;
+    background-color: #75B6EF;
+    height: 70px;
+}
+
+nav ul li {
+    margin-top: 10px;
+    padding: 15px;
+    display: inline-block;
+    color: #405DE0 
+        /* #75b6EF celeste*/
+    /* #EBEBE6 blanquito */
+}
+
+.estudiantes {
+    margin-left: 700px;
+}
+
+.Logo {
+    margin-left: 50px;
 }
