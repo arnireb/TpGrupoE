@@ -116,17 +116,82 @@ nav ul li {
 }
 .formulario{
     width: 600px;
-    height: 400px;
-    margin-top:100px;
+    height: 440px;
     margin-left:400px;
     margin-bottom:100px;
     border: 1px solid;
     border-radius: 22px;
-    background-color: #75B6EF;
+    background-color: #EBEBE6;
+    padding:30px;
 }
 .comenza{
     color:#405DE0;
     font-size:x-large;
     padding-left:70px;
-    padding-top:30px;
+    padding-top:0px;
 }
+  
+.campo{
+    padding: 15px;
+    margin-left:75px;
+    color:#405DE0;
+}
+
+#next-btn{
+    color:#405DE0;
+    margin-top:5px;
+    margin-left:300px;
+    padding:10px;
+    border-radius: 45%;
+    background-color: #75B6EF;
+}
+
+.input1{
+   position: absolute;
+   left: 620px;
+   width: 250px;
+}
+.foto2{
+    margin-left: 200px;
+}
+
+.tipoCurso {
+    display: inline-block;
+    margin-top:80px;
+    padding:20px;
+    }
+
+.fortalezas{
+    margin-left:220px;
+    padding-right:50px;
+    list-style:square;
+    font-weight: bold;
+}
+
+.online{
+    color:#405DE0;
+    padding: 10px;
+    font-size:large;
+}
+
+.beneficios{
+    color:#405DE0;
+    padding: 10px;
+    font-size:large;
+}
+
+.finalMain{
+    margin-left:300px;
+    display:inline-block;
+    }
+
+.flexibilidad{
+    margin-left:50px;
+    padding:20px;
+    display:inline-block;
+    text-align: center;
+    color:#405DE0;
+    font-weight: bold;
+    font-size:large;
+}
+
