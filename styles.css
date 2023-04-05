@@ -33,10 +33,100 @@ body{
 }
 
 nav ul li {
-    margin-top: 10px;
-    padding: 15px;
+    padding: 20px ; 
     display: inline-block;
-    color: #405DE0 
+    color: #405DE0;
+    font-size: medium;
             /* #EBEBE6 blanquito */
 }
 
+.Pyme {
+    width: 900px;
+    margin-top:50px;
+    margin-left:250px;
+    border: 1px solid;
+    padding-left: 100px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 22px;
+    background-color: #75B6EF;
+    color: #405DE0;
+    font-size: x-large;
+    font-weight: bold;
+    }
+
+.Estas{
+    width: 1200px;
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:100px;
+    background-image: url(/imagenes/ingles\ feliz.jpg);
+    height: 500px; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.6;
+}
+
+.unPaso{
+    text-align: center;
+    color: blue;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-top:60px;
+}
+
+.profesores {
+    padding-left:100px;
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    padding-top:60px;
+}
+
+.clases {
+    padding-left:100px;
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    padding-top:20px;
+}
+
+.metodo {
+    padding-left:100px;
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    padding-top:20px;
+}
+.lider{
+    padding-left:100px;
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    padding-top:5px;
+}
+.ventajas{
+    text-align: center;
+    color: blue;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-top:60px;
+}
+.formulario{
+    width: 600px;
+    height: 400px;
+    margin-top:100px;
+    margin-left:400px;
+    margin-bottom:100px;
+    border: 1px solid;
+    border-radius: 22px;
+    background-color: #75B6EF;
+}
+.comenza{
+    color:#405DE0;
+    font-size:x-large;
+    padding-left:70px;
+    padding-top:30px;
+}
