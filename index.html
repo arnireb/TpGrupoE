@@ -5,139 +5,162 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>TPGrupoE</title>
 </head>
 <body>
+    <!-- Inicio del Header-->
     <header>
         <div class="primerHeader">
             <nav>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">EL CURSO</a></li>
-                    <li><a href="">INSCRIBITE</a></li>
-                    <li class="estudiantes"><a href="">ACCESO A ESTUDIANTES</a></li>
+                    <li><a href="#idHome">HOME</a></li>
+                    <li><a href="#idCurso">EL CURSO</a></li>
+                    <li><a href="#idInscribite">INSCRIBITE</a></li>
+                    <li class="estudiantes"><a href="#idEstudiantes">ACCESO A ESTUDIANTES</a></li>
                 </ul>
             </nav>
         </div>
         
-        <div>
+        <div id="idHome">
+            <div>
+                <img src="imagenes/Logo Of Course.jpg" alt="Logo Of Course" width="300px" height="225px" class="Logo">
+            </div>
             <nav>
                 <ul>
-                    <li>
-                        <img src="/imagenes/Logo Of Course.jpg" alt="Logo Of Course" width="300px" height="225px" class="Logo">
-                    </li> 
-                    <li class="empresa"><a href="">EMPRESA</a></li>
-                    <li><a href="">CONTACTO</a></li>
-                    <li><a href="">COTIZADOR</a></li>
+                    <li class="empresa"><a href="#idEmpresa">EMPRESA</a></li>
+                    <li><a href="#idInscribite">CONTACTO</a></li>
+                    <li><a href="#idCotizador">COTIZADOR</a></li>
                 </ul>
             </nav>
         </div>
              
     </header>
+    <!-- Fin del Header-->
+    <!-- Inicio del Main-->
     <main>
-        <div class="Pyme">
+        <div class="Pyme" id="idEmpresa">
             <p>
                 Si estás visitando Of Course, seguramente es porque estás buscando academias de Inglés. Somos una Academia Online, así que, si buscas Clases de Inglés Online, podes echar un vistazo a las opiniones de nuestros alumnos, podrás comprobar que estamos entre las más recomendadas y mejor valoradas. Además, ofrecemos una magnífica relación calidad precio, de hecho, hemos conseguido ser de las academias más reconocidas de Argentina, todo ello con profesores nativos altamente calificados. 
             </p>
         </div>
-        <div class="Estas">
-            <p>
-                <div class="unPaso">
-                    Estas a un paso de disfrutar de:
-                </div>
-                <div class="profesores">
-                    Profesores nativos del idioma
-                </div>
-                <div class="clases">
-                    Clases en vivo las 24 horas del dia
-                </div>
-                <div class="metodo">
-                    Metodo innovador de aprendizaje de inglés online,
-                </div>
-                <div class="lider">
-                    líder en Latinoamérica*
-                </div>
-                <div class="ventajas">
-                    Ventajas de aprender inglés en Of Course
-                </div>
+        <div class="Estas" id="idCurso">
+            <p class="unPaso">
+                Estas a un paso de disfrutar de:
+            </p>
+            <p class="profesores">
+                Profesores nativos del idioma
+            </p>
+            <p class="clases">
+                Clases en vivo las 24 horas del dia
+            </p>
+            <p class="metodo">
+                Metodo innovador de aprendizaje de inglés online,
+            </p>
+            <p class="lider">
+                líder en Latinoamérica*
+            </p>
+            <p class="ventajas">
+                Ventajas de aprender inglés en Of Course
             </p>
         </div>
-        <div class="formulario">
+        <div class="formulario" id="idInscribite">
             <p class="comenza">
                 COMENZA HOY 60% DE DESCUENTO
             </p>
-            <form class="campo">
-                <label for="name">Nombre *</label>
-                <input type="text"  class="input1" name="name" required>
-            </form>
-
-            <form class="campo">
-                <label for="apellido">Apellido *</label>
-                <input type="text"  class="input1" name="apellido" required>
-            </form>
-
-            <form class="campo">
-                <label for="email">E:mail *</label>
-                <input type="email"  class="input1" name="email" required>
-            </form>
-
-            <form class="campo">
-                <label for="pais">País *</label>
-                <input type="text"  class="input1" name="pais" required>
-            </form>
-
-            <form class="campo">
-                <label for="region">Región *</label>
-                <input type="text"  class="input1" name="region" required>
-            </form>
-
             <form>
-                <p class="campo">* Requerido </p>
-                <button type="button" id="next-btn">COMIENZA AHORA</button>
+                <div class="campo">
+                    <label for="name">Nombre *</label>
+                    <input type="text"  class="input1" name="name" id="name" placeholder="Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="apellido">Apellido *</label>
+                    <input type="text"  class="input1" name="apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E:mail *</label>
+                    <input type="email"  class="input1" name="email" id="email" placeholder="dirección de mail" required>
+                </div>
+
+                <div class="campo">
+                    <label for="pais">País *</label>
+                    <input type="text"  class="input1" name="pais" id="pais" placeholder="Pais" required>
+                </div>
+
+                <div class="campo">
+                    <label for="region">Región *</label>
+                    <input type="text"  class="input1" name="region" id="region" placeholder="Region" required>
+                </div>
+
+                <div>
+                    <p class="campo">* Requerido </p>
+                    <button type="button" id="next-btn" onclick="valido()">COMIENZA AHORA</button>
+                </div>
             </form>
         </div>
-        <div class="foto2">
-            <img src="/imagenes/Foto 2.jpg" alt="Foto chica americana" width="1000px" height="600px">
+        <div class="foto2" id="idEstudiantes">
+            <img src="imagenes/Foto 2.jpg" alt="Foto chica americana" width="1000px" height="600px">
         </div>
-        <div>
-            <ul>
-                <li class="tipoCurso">
-                    <ul class="fortalezas">
-                        <li class="online">CURSO 100% ONLINE</li>
-                        <li class="beneficios">Inglés Profesional</li>
-                        <li class="beneficios">Aprende Inglés Nativo</li>
-                        <li class="beneficios">Comunidad Exclusiva</li>
-                        <li class="beneficios">¡Llevamos más de 15 años enseñando Inglés!</li>
-                        <li class="beneficios">4 razones por las que OF COURSE</li>
-                        <li class="beneficios">Obten tu certificado en cada nivel</li>
-                    </ul>
-                </li>
-                <li class="tipoCurso">
-                    <img src="/imagenes/ingles.jpg" alt="Foto pizarra" width="450px" height="295px">
-                </li>
+        <div id="idCotizador">
+            <ul class="fortalezas">
+                <li class="online">CURSO 100% ONLINE</li>
+                <li class="beneficios">Inglés Profesional</li>
+                <li class="beneficios">Aprende Inglés Nativo</li>
+                <li class="beneficios">Comunidad Exclusiva</li>
+                <li class="beneficios">¡Llevamos más de 15 años enseñando Inglés!</li>
+                <li class="beneficios">4 razones por las que OF COURSE</li>
+                <li class="beneficios">Obten tu certificado en cada nivel</li>
             </ul>
-        </div>
-        <div>
-            <ul>
-                <li class="finalMain">
-                    <img src="/imagenes/niños.jpg" alt="Foto niña" width="350px" height="200px">
-                </li>
-                <li class="flexibilidad">
-                    <p>OF COURSE es la opción más flexible para que tu hijo</p>
-                    <p>comience o acelere su aprendizaje de inglés.</p>
-                    <p>Caracteristicas</p>
-                    <p>Acceso ilimitado a la plataforma 24/7</p>    
-                    <p>Profesores nativos y certificados en</p>    
-                    <p>educación</p>
-                    <p>Acceso desde cualquier lugar</p>    
-                    <p>Seguimiento de las clases de tu hijo</p>    
-                </li>
-            </ul>
+            <div>
+                <img src="imagenes/ingles.jpg" alt="Foto pizarra" width="450px" height="295px" class="tipoCurso">
+            </div>
+        <div class="marco">
+            <div >
+                <img src="imagenes/niños.jpg" alt="Foto niña" width="430px" height="270px" class="finalMain">
+            </div>
+            <div class="flexibilidad">
+                <p>OF COURSE es la opción más flexible para que tu hijo</p>
+                <p>comience o acelere su aprendizaje de inglés.</p>
+                <p class="negrita">Caracteristicas</p>
+                <p>Acceso ilimitado a la plataforma 24/7</p>    
+                <p>Profesores nativos y certificados en</p>    
+                <p>educación</p>
+                <p>Acceso desde cualquier lugar</p>    
+                <p>Seguimiento de las clases de tu hijo</p>    
+            </div>
         </div>
     </main>
-    <footer>
+    <!-- Fin del Main-->
+    <!-- Inicio del Footer-->
+    <footer class="footer">
+        <div class="containerUno">
+
+            <div class="logoFooter">
+                <img src="imagenes/Logo Of Course.jpg" width="100px" height="80px" >
+            </div>
+
+        </div>
+        <div class="containerDos">
+            <div class="redesSociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <hr/>
+        <div class="containerTres">
+            <div>
+                <h4>Derechos Reservados 2023 of course Powered by Grupo E</h3>
+            </div>
+
+        </div>
 
     </footer>
+    <!-- Fin del Footer-->
+
     <script src="script.js"></script>
 </body>
    
