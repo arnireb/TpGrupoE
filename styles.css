@@ -73,53 +73,57 @@ nav ul li {
 .unPaso{
     text-align: center;
     color: blue;
-    font-size:xx-large;
-    font-weight: bold;
+    font-size:xx-large; 
+    font-weight: bold;  
     padding-top:60px;
 }
 
 .profesores {
     padding-left:100px;
     color: blue;
-    font-size:x-large;
+    /*font-size:x-large;*/
     font-weight: bold;
-    padding-top:60px;
+    padding-top:30px;
+    list-style: none;
 }
 
 .clases {
     padding-left:100px;
     color: blue;
-    font-size:x-large;
+    /*font-size:x-large;*/
     font-weight: bold;
-    padding-top:20px;
+    padding-top:30px;
+    list-style: none;
 }
 
 .metodo {
     padding-left:100px;
     color: blue;
-    font-size:x-large;
+    /*font-size:x-large;*/
     font-weight: bold;
     padding-top:20px;
+    list-style: none;
 }
 .lider{
     padding-left:100px;
     color: blue;
-    font-size:x-large;
+    /*font-size:x-large;*/
     font-weight: bold;
     padding-top:5px;
+    list-style: none;
 }
 .ventajas{
     text-align: center;
     color: blue;
-    font-size:xx-large;
+    /*font-size:xx-large;*/
     font-weight: bold;
     padding-top:60px;
+    list-style: none;
 }
 .formulario{
     width: 600px;
     height: 440px;
     margin:0 auto;
-    margin-left:400px;
     margin-bottom:100px;
     border: 1px solid;
     border-radius: 22px;
@@ -155,11 +159,11 @@ nav ul li {
 }
 .foto2{
     margin:0 auto;
-    margin-left: 200px;
+    width: 1000px;
+    height: 600px; 
 }
 
 .fortalezas{
-    margin-left:260px;
     margin-top:100px;
     list-style:square;
     font-weight: bold;
@@ -175,18 +179,30 @@ nav ul li {
 
 #idCotizador{
     margin:0 auto;
+    width: 1000px;
+    height: 500px;
 }
 
 .online{
     color:#405DE0;
-    padding: 10px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom:30px;
+    list-style:none;
     font-size:large;
 }
 
 .beneficios{
     color:#405DE0;
-    padding: 10px;
+    padding-left: 40px;
+    padding-bottom:10px;
+    list-style:none;
     font-size:large;
+}
+
+.fotoPizarra{
+    padding:20px;
+float: right;
 }
 
 .finalMain{
@@ -210,7 +226,6 @@ nav ul li {
     width: 1000px;
     margin:0 auto;
     margin-top:100px;
-    margin-left: 200px;
     border: 1px solid;
     border-radius: 22px;
     color:#405DE0;
