@@ -81,7 +81,7 @@ nav ul li {
 .profesores {
     padding-left:100px;
     color: blue;
-    /*font-size:x-large;*/
+    font-size:x-large;
     font-weight: bold;
     padding-top:30px;
     list-style: none;
@@ -90,7 +90,7 @@ nav ul li {
 .clases {
     padding-left:100px;
     color: blue;
-    /*font-size:x-large;*/
+    font-size:x-large;
     font-weight: bold;
     padding-top:30px;
     list-style: none;
@@ -99,7 +99,7 @@ nav ul li {
 .metodo {
     padding-left:100px;
     color: blue;
-    /*font-size:x-large;*/
+    font-size:x-large;
     font-weight: bold;
     padding-top:20px;
     list-style: none;
@@ -107,7 +107,7 @@ nav ul li {
 .lider{
     padding-left:100px;
     color: blue;
-    /*font-size:x-large;*/
+    font-size:x-large;
     font-weight: bold;
     padding-top:5px;
     list-style: none;
@@ -115,7 +115,7 @@ nav ul li {
 .ventajas{
     text-align: center;
     color: blue;
-    /*font-size:xx-large;*/
+    font-size:x-large;
     font-weight: bold;
     padding-top:60px;
     list-style: none;
