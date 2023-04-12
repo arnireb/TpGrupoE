@@ -41,7 +41,7 @@ nav ul li {
 }
 
 .Pyme {
-    width: 900px;
+    width: 1000px;
     margin:0 auto;
     margin-top:100px;
     margin-bottom:100px;
@@ -57,8 +57,9 @@ nav ul li {
     font-weight: bold;
     }
 
+        
 .Estas{
-    width: 1200px;
+    width: 1000px;
     margin-top:100px;
     margin:0 auto;
     margin-bottom:100px;
@@ -67,24 +68,29 @@ nav ul li {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    opacity: 0.6;
-}
+    opacity: 0.5;
+    
+    }
 
 .unPaso{
-    text-align: center;
-    color: blue;
-    font-size:xx-large; 
-    font-weight: bold;  
-    padding-top:60px;
+        font-weight: bold;
+       /* text-align: center;*/
+        padding-left:100px;
+        color: blue;
+        font-size:xx-large; 
+        padding-top:60px;
+
 }
+
 
 .profesores {
     padding-left:100px;
-    color: blue;
+    color:blue;
     font-size:x-large;
     font-weight: bold;
     padding-top:30px;
     list-style: none;
+    
 }
 
 .clases {
@@ -115,13 +121,13 @@ nav ul li {
 .ventajas{
     text-align: center;
     color: blue;
-    font-size:x-large;
+    font-size:xx-large;
     font-weight: bold;
     padding-top:60px;
     list-style: none;
 }
 .formulario{
-    width: 600px;
+    width: 1000px;
     height: 440px;
     margin:0 auto;
     margin-bottom:100px;
@@ -131,6 +137,7 @@ nav ul li {
     padding:30px;
 }
 .comenza{
+    text-align: center;
     color:#405DE0;
     font-size:x-large;
     padding-left:70px;
@@ -139,24 +146,30 @@ nav ul li {
   
 .campo{
     padding: 15px;
-    margin-left:75px;
+    margin-left:150px;
     color:#405DE0;
+}
+
+
+.input1{
+   position: absolute;
+   left: 500px;
+   width: 450px;
+}
+
+#boton{
+    margin-left:580px;
 }
 
 #next-btn{
     color:#405DE0;
     margin-top:5px;
-    margin-left:300px;
+    text-align:center;
     padding:10px;
     border-radius: 45%;
     background-color: #75B6EF;
 }
 
-.input1{
-   position: absolute;
-   left: 620px;
-   width: 250px;
-}
 .foto2{
     margin:0 auto;
     width: 1000px;
