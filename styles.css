@@ -14,8 +14,10 @@ body{
 .primerHeader {
     border: 1px solid white;
     border-radius: 22px;
-    background-color: #75B6EF;
-    height: 70px;
+    /*background-color: #75B6EF;*/
+    background-color: #D7E0EF;
+    height: 100px;
+    padding: 20px;
 }
 
 .estudiantes {
@@ -55,8 +57,7 @@ nav ul li {
     color: #405DE0;
     font-size: x-large;
     font-weight: bold;
-    }
-
+}
         
 .Estas{
     width: 1000px;
@@ -69,19 +70,17 @@ nav ul li {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     opacity: 0.5;
-    
-    }
-
-.unPaso{
-        font-weight: bold;
-       /* text-align: center;*/
-        padding-left:100px;
-        color: blue;
-        font-size:xx-large; 
-        padding-top:60px;
-
+    border: 1px solid;
+    border-radius: 22px;
+    color:#405DE0;
 }
 
+.unPaso{
+    padding-left:100px;
+    color: blue;
+    font-size:xx-large; 
+    padding-top:60px;
+}
 
 .profesores {
     padding-left:100px;
@@ -90,7 +89,6 @@ nav ul li {
     font-weight: bold;
     padding-top:30px;
     list-style: none;
-    
 }
 
 .clases {
@@ -110,6 +108,7 @@ nav ul li {
     padding-top:20px;
     list-style: none;
 }
+
 .lider{
     padding-left:100px;
     color: blue;
@@ -118,14 +117,16 @@ nav ul li {
     padding-top:5px;
     list-style: none;
 }
+
 .ventajas{
     text-align: center;
     color: blue;
-    font-size:xx-large;
+    font-size:x-large;
     font-weight: bold;
     padding-top:60px;
     list-style: none;
 }
+
 .formulario{
     width: 1000px;
     height: 440px;
@@ -134,8 +135,10 @@ nav ul li {
     border: 1px solid;
     border-radius: 22px;
     background-color: #EBEBE6;
+    color:#405DE0;
     padding:30px;
 }
+
 .comenza{
     text-align: center;
     color:#405DE0;
@@ -145,55 +148,60 @@ nav ul li {
 }
   
 .campo{
-    padding: 15px;
+    padding-top: 25px;
     margin-left:150px;
     color:#405DE0;
+    font-size:large;
 }
-
 
 .input1{
    position: absolute;
    left: 500px;
    width: 450px;
+   font-size:large;
 }
 
 #boton{
-    margin-left:580px;
+    margin-left:550px;
 }
 
 #next-btn{
     color:#405DE0;
     margin-top:5px;
+    font-size:large;
     text-align:center;
     padding:10px;
     border-radius: 45%;
     background-color: #75B6EF;
 }
 
-.foto2{
-    margin:0 auto;
+#idEstudiantes{
+    margin:auto;
     width: 1000px;
-    height: 600px; 
+    height: 600px;
 }
 
-.fortalezas{
-    margin-top:100px;
-    list-style:square;
-    font-weight: bold;
-    float:left;
-    }
-
-.tipoCurso {
-    margin-top:80px;
-    margin-left: 80px;
-    padding:20px;
-    height:350px;
+.foto2{
+    color:#405DE0;
+    border: 1px solid;
+    border-radius: 22px; 
 }
 
 #idCotizador{
     margin:0 auto;
+    margin-top:100px;
     width: 1000px;
     height: 500px;
+    color:#405DE0;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.fortalezas{
+    margin-top:50px;
+    list-style:square;
+    font-weight: bold;
+    float:left;
 }
 
 .online{
@@ -202,36 +210,25 @@ nav ul li {
     padding-top: 50px;
     padding-bottom:30px;
     list-style:none;
-    font-size:large;
 }
 
 .beneficios{
     color:#405DE0;
     padding-left: 40px;
-    padding-bottom:10px;
+    padding-bottom:20px;
     list-style:none;
     font-size:large;
 }
 
 .fotoPizarra{
-    padding:20px;
-float: right;
+    padding-right:50px;
 }
 
-.finalMain{
-    margin-left:40px;
+.tipoCurso {
     margin-top:80px;
-    float: left;
-    }
-
-.flexibilidad{
-    margin-left:50px;
-    margin-top:50px;
+    margin-left: 80px;
     padding:20px;
-    text-align: center;
-    color:#405DE0;
-    font-size:large;
-    line-height: 2;
+    height:350px;
 }
 
 .marco{
@@ -245,66 +242,50 @@ float: right;
     margin-bottom: 100px;
 }
 
+.finalMain{
+    margin-left:40px;
+    margin-top:80px;
+    float: left;
+}
+
+.flexibilidad{
+    margin-left:50px;
+    margin-top:50px;
+    padding:20px;
+    text-align: center;
+    color:#405DE0;
+    font-size:large;
+    line-height: 2;
+}
+
 .negrita{
     font-weight: bold;
 }
 
-.footer{ 
-    
-    margin: 0;
-    padding: 40px;
-    box-sizing: border-box;
-    list-style: none;
-    background-color: #75B6EF;
-
-}
-.logoFooter{
-    
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-
-
-}
-span{
-    font-size: 40px;
+footer {
+    margin: 30px;
+    background-color: #D7E0EF;
+    border-radius: 40px;
 }
 
-.containerUno{
-   max-width: 80px;
-   margin: 40 40px ;
-}
-.redesSociales a {
-    display: inline-block;
-    min-height: 40px;
-    width: 40px;
-    background-color: rgb(9, 31, 230);
-    margin: 0px 20px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color:#FFFFFF;
-    transition:all .5s ease;
-
-}
-.redesSociales a:hover{
-    background-color: #798de9;
-}
-.containerDos{
-    box-sizing: border-box;
-    width: 290px ;
-    height: 60px;
-    margin-left:800px;
-    margin-right: 40px;
-    border-radius: 22px;
-    background-color: #0e7ee7;
-    padding: 10px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-.containerTres{
-    text-align: center;
+.contenedor {
+    margin: 5px;
     padding: 20px;
-
-
+    text-align: center;
 }
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.redesIconos {
+    list-style: none;
+    padding: 10px;
+}
+
+
